@@ -13,7 +13,8 @@ The easiest way to run the notebooks is in the browser with Binder. Simply click
 to launch Binder instances, which will automatically build the appropriate environment and run a
 live instance of the notebook in the broswer.
 
-Once the environment is built and the notebook is ready, select from the menubar `Run > Run All`.
+Once the environment is built and the notebook is ready, select from the menu bar `Run > Run All
+Cells`.
 
 #### Mutations and Clones
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hawkjo/scptseq_analysis/main?labpath=Mutations_and_Clones.ipynb)
