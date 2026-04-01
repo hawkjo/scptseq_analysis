@@ -1,0 +1,12 @@
+*pyc
+*swp
+*pkl
+output_*
+results*
+mutations
+env*
+build
+dist
+hold
+scptseq.egg-info
+.ipynb_checkpoints
