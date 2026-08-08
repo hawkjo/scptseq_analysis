@@ -9,7 +9,7 @@ Analysis and figure generation scripts for
 ## Analysis notebooks
 
 ### Run in the browser
-The easiest way to run the main notebooks, which generate all manuscript and supplemental figures,
+The easiest way to run the notebooks which generate all manuscript and supplemental figures
 is in the browser with Binder. Simply click on the links below to launch Binder instances, which
 will automatically build the appropriate environment and run a live instance of the notebook in the
 broswer.
