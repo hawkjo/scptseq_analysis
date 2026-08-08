@@ -1,0 +1,6 @@
+freediv10Xcellbcs decode
+/g/stegle/hawkins/decode/experiments/250407/pacbio/r64368e_20250321_150228_25s000318/m64368e_250321_151405.hifi_reads.bam.extracted.fq
+5p
+--decoder-file=/g/stegle/hawkins/decode/experiments/TX46/DS-00250_LamC/counts/outs/filtered_feature_bc_matrix/barcodes.tsv.gz.decoder.d1+1.h5
+--output-dir=250407_TX46_LamC
+-vvv

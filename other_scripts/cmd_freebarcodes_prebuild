@@ -1,0 +1,5 @@
+freediv10Xcellbcs prebuild     
+--barcode-file=barcodes.tsv.gz
+--max-err-decode=1
+--reject-delta=1
+-vvv
