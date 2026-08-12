@@ -10,3 +10,4 @@ dist
 hold
 scptseq.egg-info
 .ipynb_checkpoints
+data/
