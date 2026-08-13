@@ -1,0 +1,30 @@
+#!/bin/bash
+# Binder (repo2docker) runs this once at image build time, from the repo root,
+# after requirements.txt is installed. The downloaded data is baked into the
+# cached image, so it costs nothing on subsequent launches of the same commit.
+
+set -euo pipefail   # stop on first error, on unset variables, and on pipe failures
+
+# ----------------------------------------------------------------------------
+HOST="https://sandbox.zenodo.org"   # switch to https://zenodo.org for the real record
+RECORD=586476                       # the digits in <HOST>/records/XXXXXXX
+# ----------------------------------------------------------------------------
+
+BASE="${HOST}/records/${RECORD}/files"
+
+mkdir -p data
+
+fetch() {
+    local name="$1" md5="$2"        # lowercase by convention: scoped to this function
+    echo "Fetching ${name} ..."
+    curl -fsSL --retry 3 --retry-delay 5 -o "data/${name}" "${BASE}/${name}?download=1"
+    echo "${md5}  data/${name}" | md5sum -c -
+}
+
+# md5 values are on the Zenodo record page, in the file table next to each file.
+fetch scptseq_adata.h5ad      a9f081ec9874509a8f25d3042b5fef81
+fetch DE_and_GO_results.xlsx  95883d97dda1ec1a06807d3ab7adea2a
+fetch target_reads.xlsx       b354fea2d85d931e0080833eb6303b11
+
+echo "Data ready:"
+ls -lh data/
