@@ -6,8 +6,8 @@
 set -euo pipefail   # stop on first error, on unset variables, and on pipe failures
 
 # ----------------------------------------------------------------------------
-HOST="https://sandbox.zenodo.org"   # switch to https://zenodo.org for the real record
-RECORD=586476                       # the digits in <HOST>/records/XXXXXXX
+HOST="https://zenodo.org"        # published record
+RECORD=22685451                  # the digits in <HOST>/records/XXXXXXX
 # ----------------------------------------------------------------------------
 
 BASE="${HOST}/records/${RECORD}/files"
