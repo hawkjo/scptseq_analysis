@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+title: "scptseq_analysis: analysis and figure code for Allele-resolved CRISPR editing and splicing outcomes with their transcriptional consequences in vivo"
+version: 1.0.0
+license: MIT
+type: software
+abstract: "Notebooks and scripts for the paper's analyses and figures. They run on the processed data at Zenodo (https://doi.org/10.5281/zenodo.22685451)."
+authors:
+  - family-names: Hawkins
+    given-names: John A.
+    affiliation: European Molecular Biology Laboratory
+repository-code: "https://github.com/hawkjo/scptseq_analysis"
