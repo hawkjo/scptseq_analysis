@@ -2,7 +2,7 @@
 
 Analysis and figure generation scripts for
 
-### Direct detection of CRISPR mutations and transcriptional responses at single cell resolution in vivo
+### Allele-resolved CRISPR editing and splicing outcomes with their transcriptional consequences in vivo
 
 **John A. Hawkins, Siamak Redhai, Svenja Leible, Mireia Osuna Lopez, Hilal Ozgur, Tianyu Wang, Michaela Holzem, Lars M. Steinmetz, Michael Boutros, Oliver Stegle**
 
